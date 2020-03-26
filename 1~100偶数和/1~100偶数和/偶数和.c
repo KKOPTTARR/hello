@@ -1,4 +1,3 @@
-//求1-100之间的偶数和
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
