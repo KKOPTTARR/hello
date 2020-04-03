@@ -18,5 +18,8 @@
     <ClCompile Include="数字排列.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="三的倍数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
