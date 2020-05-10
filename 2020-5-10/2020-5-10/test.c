@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include<windows.h>
+#include<stible.h>
+#pragma warning(disable:4996)
 
 
 
