@@ -21,6 +21,7 @@ void Show(int *a, int n)
 
 void Reverse(char *str)
 {
+	//思路：头尾交换，头加加，尾减减
 	if (NULL == str){
 		return;
 	}
@@ -62,20 +63,15 @@ struct Student{
 
 int main()
 {
-	stu_t liubei;
 
 
 
-
-
-
-
-	//int a = 0;
-	//int n = 0;
-	//printf("Please Enter Your a && n: ");
-	//scanf("%d %d", &a, &n);
-	//int result = Sn(a, n);
-	//printf(" = %d\n", result);
+	int a = 0;
+	int n = 0;
+	printf("Please Enter Your a && n: ");
+	scanf("%d %d", &a, &n);
+	int result = Sn(a, n);
+	printf(" = %d\n", result);
 
 
 
@@ -135,3 +131,4 @@ int main()
 	system("pause");
 	return 0;
 }
+
